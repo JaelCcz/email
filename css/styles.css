@@ -1,0 +1,149 @@
+:root{
+    --blue--b-100: #F5FDFF;
+    --blue--b-95: #EAF1F2;
+    --blue--b-70: #0088B3;
+    --blue--b-40: #004E66;
+    --blue--s-40:#566266;
+    --blue--b-20:#002733;
+    --blue--b-10: #001319;
+    --blue--noktos-100: #00C2FF;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--blue--b-100);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+.header{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    margin: 1.6rem;
+}
+
+.logo-noktos{
+    width: 25%;
+    height: 6rem;
+}
+
+
+/* ---------SECTIONS----------*/
+.main-menssage, .package-bought, .contact-section{
+    margin: 1.6rem;
+    margin-bottom: 4.8rem;
+    /* background-color: yellow; */
+}
+
+/* ---------MAIN MENSSAGE----------*/
+.travel-illustration{
+    width: 100%;
+    height: 30rem;
+    margin-bottom: 3.2rem;
+}
+.menssage-title--black{
+    margin-bottom:2.4rem;
+    font-size: 3.2rem;
+    color: var(--blue--b-20);
+}
+.menssage-paragraph--gray, .contact-text, hr{
+    color: var(--blue--s-40);
+    line-height: 2.4rem;
+}
+.emphasize{
+    color: var(--blue--b-40);
+}
+
+/* ---------PACKAGE-BOUGHT----------*/
+.package-card--gray{
+    border-radius: .6rem;
+    padding: 1.6rem;
+    line-height: 1.6rem;
+    background-color: var(--blue--b-95);
+}
+.package-title--medium{
+    margin-bottom: 2.4rem;
+    font-size: 1.6rem;
+    color: var(--blue--b-70);
+    line-height: 3.2rem;
+}
+.package-detail{
+    display: flex;
+    justify-content: space-between;
+}
+.list-one, .list-two{
+    font-size: 1.2rem;
+    list-style: none;
+}
+.list-one{
+    color: var(--blue--b-40);
+    font-weight:900;
+}
+
+.list-two{
+    color: var(--blue--b-10);
+    padding-left: 2.4rem;
+}
+
+/* ---------PACKAGE-PROFIT----------*/
+.profit-title{
+    margin: 3.2rem 0 1.6rem 0;
+    color: var(--blue--b-10);
+    font-weight: 500;
+}
+.profits-list, .contact-list{
+    list-style: none;
+}
+.profit, .contact{
+    display: flex;
+    align-items: center;
+    padding-bottom: .8rem;
+}
+.profit-text{
+    padding: .8rem;
+}
+
+.package-note--gray{
+    border-radius: .6rem;
+    padding: 1.6rem;
+    margin: 2.4rem 0 4.8rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--blue--s-40);
+    color: var(--blue--b-100);
+    line-height: 2.4rem;
+    text-align: center;
+}
+
+.package-note--gray > p{
+    padding: 2.4rem;
+    font-weight: 500;
+}
+
+.contact-list{
+    margin:1.6rem 0 4.8rem 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--blue--s-40);
+}
+
+
+.faq-button{
+    border-radius: .6rem;
+    border: var(--blue--noktos-100);
+    padding: 1.6rem 4.5rem;
+    margin: 2.4rem 0;
+    font-size: 1.6rem;
+    color: var(--blue--b-10);
+    background-color: var(--blue--noktos-100);
+}
