@@ -1,0 +1,67 @@
+@media (min-width: 1000px){
+
+.header{
+    margin: 3.2rem 42.5rem 0 36rem ;
+}
+
+.logo-noktos{
+    height: 9rem;
+}
+/* ---------SECTIONS----------*/
+.main-menssage, .package-bought, .contact-section{
+    margin: 0 42rem;
+    margin-bottom: 7.2rem;
+    font-size: 1.8rem;
+}
+.contact > p{
+    font-size: 1.8rem;
+}
+
+/* ---------Thank you for joining----------*/
+.travel-illustration{
+    height: 40rem;
+}
+.menssage-title--black{
+    margin:7.2rem 0 2.4rem 0;
+    font-size: 5.6rem;
+}
+
+/* ---------Noktos 4 Business Memberships----------*/
+.package-card--gray{
+    padding: 3.4rem;
+}
+.package-title--medium{
+    margin-bottom: 2.4rem;
+    font-size: 3rem; 
+}
+.list-one, .list-two{
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+}
+.list-one > li{
+    padding-bottom: 1.8rem;
+}
+.list-two > li{
+    padding-bottom: 1.6rem;
+}
+
+.package-title--medium{
+    margin-bottom: 3.2rem;
+}
+/* ---------Start the Noktos experience----------*/
+.package-note--gray{
+    padding: 1.6rem;
+    margin: 2.4rem 0 4.8rem ;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    background-color: var(--blue--s-40);
+    color: var(--blue--b-100);
+    line-height: 2.4rem;
+    text-align: left;
+}
+.package-note--gray > p{
+    padding: 0 2.4rem;
+    font-weight: 500;
+}
+}
