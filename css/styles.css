@@ -113,6 +113,10 @@ body{
     color: var(--black--80);
 }
 
+.coin-2D-image{
+    width: 7rem;
+}
+
 .package-note > p{
     padding: .8rem;
     font-size: 1.8rem;
