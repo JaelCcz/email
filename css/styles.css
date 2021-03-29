@@ -149,6 +149,7 @@ body{
 }
 
 .card-payment-gray{
+    margin-bottom: 4.8rem;
     border-radius: .6rem;
     padding: 1.6rem;
     background-color: var(--gray--10);
@@ -160,10 +161,38 @@ body{
     color: var(--blue--50);
 }
 .card-payment-gray-info{
+    margin-top: 2.5rem;
     display: flex;
     justify-content: space-between;
 }
-
-.card-payment-gray-info > p{
+.list-one, .list-two{
     font-size: 1.4rem;
+    list-style: none;
+    color: var(--gray--40);
+    font-weight: 500;
+}
+.list-one{
+    width: 50%;
+}
+.list-one .item-socio{
+    padding-bottom: 2.8rem;
+}
+
+.list-one .item{
+    padding-bottom: .8rem;
+}
+
+.list-two > li{
+    padding-left: 5rem;
+    padding-bottom: .9rem;
+    text-align: right;
+}
+
+.total-payment{
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--black--80);
 }
