@@ -55,3 +55,21 @@
     line-height: 2.4rem;
     text-align: left;
 }
+
+/*------------VIEW PAYMENTS----------*/
+.main-menssage-payment{
+    margin: 0 42rem;
+    margin-bottom: 6.2rem;
+    font-size: 1.8rem;
+}
+.list-one, .list-two{
+    font-size: 1.6rem;
+}
+.list-one{
+    width: 50%;
+}
+.list-two .item-name-socio{
+    padding-bottom: 2.8rem;
+}
+
+}
