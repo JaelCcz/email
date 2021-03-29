@@ -5,6 +5,7 @@
     --blue--85:#B3EDFF;
     --blue--50: #007499;
     --gray--40: #566266;
+    --gray--10: #E8EBEB;
     --black--70: #002733;
     --black--80: #001319;
     --blue--link: #0047E7;
@@ -27,7 +28,6 @@ body{
 }
 
 .header{
-    /* background-color: yellow; */
     display: flex;
     justify-content: space-between;
     margin: 1.6rem;
@@ -39,7 +39,6 @@ body{
 .header > p{
     padding-top: 1.6rem;
 }
-
 
 /* ---------SECTIONS----------*/
 .main-menssage, .questions, .fotter-section{
@@ -130,4 +129,37 @@ body{
 }
 .link {
     color: var(--blue--link);
+}
+
+
+/*------------VIEW PAYMENTS----------*/
+.main-menssage-payment{
+    margin: 1.6rem;
+    margin-bottom: 2.8rem;
+}
+
+.payment-title{
+    margin-bottom:2.4rem;
+    font-size: 3.1rem;
+    color: var(--black--70);
+}
+
+.card-payment-gray{
+    border-radius: .6rem;
+    padding: 1.6rem;
+    background-color: var(--gray--10);
+}
+
+.card-payment-gray-title{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: var(--blue--50);
+}
+.card-payment-gray-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-payment-gray-info > p{
+    font-size: 1.4rem;
 }
