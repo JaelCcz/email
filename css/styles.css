@@ -1,7 +1,7 @@
 :root{
     --white--100: #F5FDFF;
-    /* --white--90: #EEF7F9; */
     --white--95:#F7FEFF;
+    --white--90: #E6F9FF;
     --blue--85:#B3EDFF;
     --blue--50: #007499;
     --gray--40: #566266;
@@ -148,7 +148,7 @@ body{
     color: var(--black--70);
 }
 
-.card-payment-gray{
+.card-payment-gray, .card-coupon--gray{
     margin-bottom: 4.8rem;
     border-radius: .6rem;
     padding: 1.6rem;
@@ -195,4 +195,79 @@ body{
     font-size: 2.4rem;
     font-weight: 500;
     color: var(--black--80);
+}
+
+
+
+/*------------VIEW COUPON----------*/
+.main-menssage-coupon{
+    margin: 1.6rem;
+    margin-bottom: 2.8rem;
+}
+.coupon-title{
+    margin-bottom:2.4rem;
+    font-size: 3.1rem;
+    color: var(--black--70);
+}
+
+.folio-date{
+    margin-top: 2.4rem;
+    padding-bottom: .8rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    color: var(--gray--40);
+}
+
+.folio-date > p{
+    padding-bottom: .8rem;
+    color: var(--blue--50);
+}
+
+.card-coupon--gray{
+    margin-bottom: 4.8rem;
+    border-radius: .6rem;
+    padding: 1.6rem;
+    background-color: var(--gray--10);
+}
+
+.card-coupon-subtitle--black{
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.4rem;
+    font-weight: 500;
+    color: var(--black--80);
+}
+
+.card-coupon-title-blue{
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--blue--50);
+}
+
+.list-one .item-one--light{
+    font-weight: normal;
+    padding-bottom: 1.4rem;
+}
+
+.list-one .item-one{
+    padding-bottom: 0.5rem;
+}
+
+.card-receipt--white{
+    margin: 4.8rem 0 7.2rem 0;
+    border-radius: .6rem;
+    padding: 1.6rem;
+    background-color: var(--white--90);
+}
+
+.card-receipt-title-blue{
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: var(--blue--50);
+}
+
+.card-coupon-info > p{
+    padding-bottom: .8rem;
 }
