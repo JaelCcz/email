@@ -28,6 +28,7 @@ body{
     color: var(--gray--40);
 }
 
+/*------------HEADER----------*/
 .header{
     display: flex;
     justify-content: space-between;
@@ -71,7 +72,6 @@ hr{
 .emphasize{
     color: var(--blue--50);
 }
-
 
 /* ------CARD WHITE/GRAY------- */
 .card-coupon-white, .card-coupon-gray{

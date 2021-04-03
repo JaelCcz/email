@@ -28,6 +28,7 @@ body{
     color: var(--gray--40);
 }
 
+/*------------HEADER----------*/
 .header{
     display: flex;
     justify-content: space-between;
