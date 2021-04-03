@@ -1,0 +1,57 @@
+@media (min-width: 1000px){
+
+.header{
+    margin: 3.2rem 42.5rem 0 36rem ;
+}
+
+.logo-noktos{
+    height: 9rem;
+}
+/* ---------SECTIONS----------*/
+.main-menssage, .questions, 
+.fotter-section, .note-noktos, hr{
+    margin: 0 42rem 6.2rem 42rem;
+    font-size: 1.8rem;
+}
+
+/* ---------THANK YOU----------*/
+.travel-illustration{
+    height: 40rem;
+    margin-bottom: 2.4rem;
+}
+.menssage-title--black{
+    margin:7.2rem 0 5.6rem 0;
+    line-height: 6rem;
+    font-size: 5.6rem;
+}
+
+/* ---------QUESTIONS´ NOKTOS----------*/
+.container-question {
+    margin-bottom: 2.4rem;
+}
+.question{
+    font-size: 2rem;
+}
+.profit, .contact {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.4rem;
+}
+
+/* ---------NOTE´S NOKTOS----------*/
+.note-noktos{
+    padding: 1.6rem;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    line-height: 2.4rem;
+    text-align: left;
+}
+
+.note-noktos > p{
+    padding: 0 2.4rem;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: left;
+}
+}

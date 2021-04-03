@@ -1,0 +1,47 @@
+@media (min-width: 1000px){
+
+.header{
+    margin: 3.2rem 42.5rem 0 36rem ;
+}
+
+.logo-noktos{
+    height: 9rem;
+}
+
+/* ---------SECTIONS----------*/
+.main-menssage-payment, .questions, 
+.note-noktos, .fotter-section{
+    margin: 0 42rem;
+}
+hr{
+    margin: 4.8rem 42rem 4.8rem 42rem ;
+}
+.travel-illustration{
+    height: 40rem;
+    margin-bottom: 2.4rem;
+}
+.payment-title--black{
+    margin:7.2rem 0 4.8rem 0;
+    font-size: 5.6rem;
+}
+
+/* ------CARD------- */
+.card-payment-gray{
+    margin: 3.2rem 0 4.8rem 0;
+    border-radius: .6rem;
+    padding: 1.6rem;
+}
+.column1{
+    width:35rem;
+}
+
+/* ---------NOTE´S NOKTOS----------*/
+.note-noktos{
+    padding: 1.6rem;
+    flex-direction: row;
+}
+.note-noktos > p{
+    padding: 0 2.4rem;
+    text-align: left;
+}
+}
