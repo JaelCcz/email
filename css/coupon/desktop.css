@@ -23,6 +23,9 @@
         margin:7.2rem 0 4.8rem 0;
         font-size: 5.6rem;
     }
+    .menssage-paragraph--gray, .contact{
+        font-size: 1.8rem;
+    }
     
     /* ------CARD WHITE/GRAY------- */
     .card-coupon-gray-info{
@@ -35,7 +38,9 @@
     .card-coupon-white{
         margin: 0 42rem 5.6rem 42rem;
     }
-    
+    .card-coupon-gray-info{
+        font-size: 1.5rem;
+    }
  /* ---------NOTE´S NOKTOS----------*/
     .note-noktos{
         padding: 1.6rem;
