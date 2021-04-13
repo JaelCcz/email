@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="css/css/welcome/styles.css">
+    <link rel="stylesheet" href="css/css/welcome/desktop.css">
+    
+    <style type="text/css">
+
+        body{
+            font-family: 'Roboto', sans-serif;
+        }     
+/*--------- MAIN ---------*/
+        .main{
+            max-width: 100%;
+            margin-bottom: 24px;
+            padding-top:32px;
+        }
+        .payment-title{
+            padding:24px; 
+            background-color:#F7FEFF; 
+            font-size: 32px; 
+            color: #002733;
+        }
+        .payment-menssages{
+            padding:16px 24px 48px 24px; 
+            background-color:#F7FEFF; 
+            color: #566266; 
+            font-size: 18px; 
+            line-height: 25px;  
+        }
+/* --------- CARD GRAY ----------*/
+        .card-payment-gray{
+            padding: 0 16px;
+            border-radius: 6px;
+            background:#E8EBEB;
+        }
+        .card-gray-title{
+            padding:24px 16px;
+            font-size: 24px;
+            font-weight: 900;
+            line-height: 28px;
+            color: #007499;
+        }
+        .name-hotel{
+            padding:8px 16px;
+            font-size: 16px;
+            font-weight: 900;
+            color: #566266;
+        }
+        .card-payment-gray-table{
+            padding: 0 16px;
+            font-size:14px;
+        }
+        .column1, .column1, .total, .folio-title{
+            padding:10px 0;
+            width:140px;
+            color:#566266;
+        }
+        .column2, .column2, .column2, .folio-number{
+            text-align: right;
+            color:#566266;
+        }
+        .folio{
+            padding: 24px 0;
+            font-size: 22px;
+            font-weight: 500;
+            color: #001319;
+        }
+/*--------- QUESTIONS´ NOKTOS ---------*/
+        .question{
+            padding:4px 24px;
+            background-color:#F7FEFF; 
+            font-size: 18px; 
+            font-weight: 500; 
+            color:#007499;    
+        }
+        .answer{
+            padding:0px 24px;
+            background-color:#F7FEFF;
+            font-size: 18px;
+            color:#566266; 
+        }
+        .redeem{
+            padding:0 8px;
+            background-color:#F7FEFF;  
+            font-size: 18px;
+            color:#566266;
+            
+        }
+        .phone-icon, .whatsapp-icon, .email-icon{
+            padding:0px 8px 0px 12px; 
+            float: left;
+        }
+        .email-link{
+            text-decoration: none; 
+            font-weight: 500; 
+            color:#566266 
+        }
+/* -------- CARD BLUE --------------- */
+        .container-card-payment-blue, .container-card-payment-gray{
+            padding-bottom: 56px; 
+            background-color:#F7FEFF;
+        }
+        .card-payment-blue{
+            padding:24px 16px; 
+            border-radius: 6px; 
+            background-color: #E4F1F4;
+        }
+        .card-blue-title{
+            padding:18px 16px; 
+            font-size: 20px; 
+            font-weight: 900; 
+            line-height: 28px; 
+            color: #007499;
+        }
+
+        .card-blue-text{
+            padding-left: 16px; 
+            font-size: 16px; 
+            line-height: 24px; 
+            color:#566266;
+        }
+
+/*--------- NOTE´S NOKTOS ----------*/
+        .note-nk{
+            padding:24px 32px;
+            background-color:#B3EDFF; 
+            font-size: 18px;
+            text-align:center;
+            color:#001319;
+        }
+        .coin-2d{
+            width:16%;
+            margin: auto;
+            padding:12px; 
+            display:block;
+        }
+/*--------- FOOTER ----------*/
+        .footer{
+            padding:40px 24px;
+            background-color:#F7FEFF;
+            font-size: 18px;
+            color:#566266;     
+        }
+        .footer a{
+            text-decoration: none;
+            font-weight: 500;
+            color: #0047E7    
+        }
+        
+        
+/* ---------MEDIA QUERIES----------*/       
+        @media (min-width: 601px){
+            .coupon-container{
+                margin: 0 350px;
+                /* margin: 0 175px; */
+                padding: 0 104px;
+                background:#F7FDFF;
+            }
+            .column1, .column1, .column1, .folio-title {
+                width: 320px;
+            }
+            .coin-2d{
+                width:8%;
+            }
+            .folio{
+                padding: 24px 0;
+                font-size: 28px;
+                font-weight: 500;
+                color: #001319;
+            }
+        }
+
+
+        @media (min-width: 913px){
+                
+            .card-gray-title{
+                font-size: 32px;
+                font-weight: 600;
+            }
+            .name-hotel{
+                padding:8px 16px;
+                font-size: 22px;
+            }
+            .card-payment-gray-table{
+                font-size:18px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+<div class="coupon-container">
+<!-- Header -->    
+    <table data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; margin: 0 auto;">
+      <tr style="background-color:#F7FEFF;" height="90">
+        <td align="center" valign="middle"><img class="main" src="./image/header-bg-coupon.png" alt="joven y monenda noktos"></td>
+      </tr>
+    </table>
+    
+
+<!-- MAIN -->
+    <table class="main-menssages" data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; margin:0 auto">
+            <tr>
+                <td class="payment-title" height="58">
+                    <strong>Cupón</strong>
+                </td>
+            </tr>
+            <tr>
+                <td class="payment-menssages" height="50">
+                    Hola Jose, 
+                    <br>
+                    <br>
+                    El equipo de Noktos te hace llegar la confirmación de tu reserva. 
+                    Al acceder al hotel sólo presenta la en recepción de forma impresa o ditigal.
+                    <br>
+                    <br> 
+                </td>
+            </tr>
+    </table>
+
+<!-- CARD GRAY -->
+    <div class="container-card-payment-gray">
+        <div class="card-payment-gray">
+            <div class="card-gray-title">
+                Detalle de reserva
+            </div>
+            <div class="name-hotel">
+                Hotel Extended Suites
+            </div>
+        <table class="card-payment-gray-table">
+            <tr>
+                <td class="column1">Sede</td>
+                <td class="column2">Monterrey</td>
+            </tr>
+            <tr>
+                <td class="column1">Q</td>
+                <td class="column2">Sencilla 3 Noches</td>
+            </tr>
+            <tr>
+                <td class="column1">Check in</td>
+                <td class="column2">03-mar-21</td>
+            </tr>
+            <tr>
+                <td class="column1">Check out</td>
+                <td class="column2">06-mar-21</td>
+            </tr>
+            <tr>
+                <td class="column1">Noktos por suite</td>
+                <td class="column2">6</td>
+            </tr>
+            <tr>
+                <td class="column1">Huésped</td>
+                <td class="column2">José Antonio Martinez Martinez</td>
+            </tr>
+            <tr>
+            <td class="folio folio-title">Fol. de confirmación</td>
+                <td class="folio folio-number">318368</td>
+            </tr>
+        </table>
+        </div>
+    </div>
+
+<!-- QUESTIONS´ NOKTOS -->
+    <table class="container" data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;">
+            <tr>
+                <td class="question" style="padding-top: 56px;">
+                    ¿Requieres cambios tu reservación?
+                </td>
+            </tr>
+            <tr>
+                <td class="redeem" height="50">
+                <img class="phone-icon" src="./image/phone_icon.png" alt="teléfono">
+                     <b href="tel:+528006665867"> Call Center: 800 666 5867 </b>
+                </td>
+            </tr>
+            <tr>
+                <td class="redeem" height="32">
+                <img class="email-icon" src="./image/email_icon.png" alt="email">
+                     <b> Email: <a class="email-link" href="mailto:operaciones@noktos.com"> operaciones@noktos.com</a></b>
+                </td>
+            </tr>
+            <tr>
+                <td class="redeem" style="padding:0 8px 24px 8px" height="50">
+                <img class="whatsapp-icon" src="./image/whatsapp_icon.png" alt="whatsapp">
+                     <b>  WhatsApp: <a href="tel:+525530328397" style="text-decoration: none; color:#566266"> 55 30 32 83 97 </a>
+                     </b>
+                </td>
+            </tr>
+            <tr>
+                <td class="question">
+                    ¿Requieres factura por tu compra?
+                </td>
+            </tr>
+            <tr>
+                <td class="answer" height="50" style="padding-bottom: 24px;">
+                   Mándanos tus datos fiscales a <a class="email-link" href="mailto:facturacion@noktos.com" style="">facturacion@noktos.com</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="question">
+                    ¿Necesitas más Noktos para tu estancia?
+                </td>
+            </tr>
+            <tr>
+                <td class="answer" height="50" style="padding-bottom: 56px;">
+                   Contáctanos a <a class="email-link" href="mailto:ventas@noktos.com" style="">ventas@noktos.com</a> o en <a class="email-link" href="mailto:servicioalcliente@noktos.com" style="">servicioalcliente@noktos.com</a>
+                </td>
+            </tr>
+    </table> 
+    
+    
+<!-- CARD BLUE -->
+    <div class="container-card-payment-blue">
+        <div class="card-payment-blue" >
+            <div class="card-blue-title">Hotel Extended Suites: Realizar reserva a CxC y facturar a:
+            </div>
+            <div class="card-blue-text">NOKTOS ALIANZA SA DE CV</div>
+            <div class="card-blue-text">NAL190807UB2</div>
+            <div class="card-blue-text">Presidente Masaryk #29, int E3, Col. Chapultepec Morales 1157, Miguel Hidalgo, CDMX</div>
+        </div> 
+    </div>
+            
+<!-- NOTE´S NOKTOS -->
+<table class="container" data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; margin:0 auto 48px auto;">
+            <tr>
+                <td class="note-nk" height="50" align>
+                <img class="coin-2d" src="./image/coin-2D.png" alt="phone">
+                     <b class="note-nk-text"> Recuerda que aunque compres hoy, tus noches las puede acumular y ocupar cualquier día del año. </b>
+                </td>
+            </tr>
+<!-- FOOTER -->
+            <tr>
+                <td class="footer" height="60">
+                    Te invitamos a seguir utilizando nuestros servicios en <a href="https://www.noktos.com/"> www.noktos.com </a>
+                </td>
+            </tr>
+    </table>
+
+<!-- DELET THIS TAGS -->
+    <div>
+        <br><a style="font-size: 16px;" href="index.html">View Welcome</a>
+        <br><a style="font-size: 16px" href="payment.html">View Payments</a>
+    </div>     
+</div>
+</body>
+</html>
